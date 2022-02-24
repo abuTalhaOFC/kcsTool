@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@1,300&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#particles-js {
+  /* align-items: center; */
+  background-color: rgb(238, 83, 12);
+  height: 100vh;
+  width: 100vw;
+}
+.introSec {
+  position: absolute;
+  top: 100px;
+}
+h4 {
+  font-size: 15px;
+  color: rgb(2, 34, 24);
+  font-family: poppins;
+  font-weight: 400;
+}
+.inAndBtn {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form {
+}
+.submitBtn {
+  background-color: rgb(8, 8, 8);
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+
+  padding: 8.5px 16px;
+  color: rgb(248, 248, 248);
+  border: 1px solid rgb(8, 8, 8);
+  border-left: unset;
+  border-radius: 0px 2px 2px 0px;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background-color: rgb(99, 4, 4);
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  input {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 249, 249, 0.562);
+  }
+}
+input {
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 2px 0px 0px 2px;
+  padding: 8px;
+  /* background: rgb(245, 245, 245); */
+  font-size: 16px;
+  outline: none;
+  width: 250px;
+  font-family: "Montserrat", sans-serif;
+}
+.dv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 10;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .dv button {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(235, 232, 232, 0.212);
+  }
+}
+.dv button {
+  font-size: 15px;
+  /* background: rgb(245, 245, 245); */
+  border: 1px solid rgba(0, 0, 0, 0.37);
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+  padding: 7px;
+  width: 250px;
+  text-align: left;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+.dv button:hover {
+  /* background-color: rgb(209, 209, 209); */
+  background-color: rgba(235, 232, 232, 0.384);
+}
+
+
+#ans {
+  position: absolute;
+  top: 200px;
+  width: 315px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .modal {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px);
+    background-color: rgba(235, 232, 232, 0.212);
+  }
+}
+#ans .ofc {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 38px;
+  line-height: 90px;
+}
+#ans .num {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 25px;
+  line-height: 40px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  #particles-js {
+    background-color: rgb(238, 83, 12);
+  }
+  input {
+    font-size: 13px;
+    width: 200px;
+  }
+  .submitBtn {
+    font-size: 13px;
+    padding: 6.7px 13px;
+  }
+  .dv button {
+    font-size: 13px;
+    padding: 6px;
+    width: 200px;
+  }
+  #ans .ofc {
+    font-size: 35px;
+    line-height: 70px;
+  }
+  #ans .num {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  #ans {
+    width: 255px;
+    height: 200px;
+    border-radius: 5px;
+  }
+
+  
+} */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border-top: 1px solid rgba(0, 0, 0, 0.123);
+  position: fixed;
+  bottom:10px;
+
+}
+.footer a svg {
+background-color: rgba(255, 255, 255, 0.096);
+color: rgba(0, 0, 0, 0.103);
+border-radius: 50%;
+font-size: 24px;
+margin: 5px;
+}
+.footer a svg:hover{
+  background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+
+/* glow card */
+
