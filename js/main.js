@@ -13,7 +13,7 @@ let arrData = [
   `Meherpur`, `Gangni`, `Mawna`, `Baburhat`, `Malitola`, `Badargonj`, `Shamoly`, `Razapur`, `Jatrabari`, `Chakbazzar`,
   `Khilgaon`, `Siddirgonj`, `Tongi`, `Kaunia`, `Gabtoli`, `Magura`, `Faridpur`, `Jamilnagarshoting`, `Patgram`,
   `Sariakandi`, `Showarighat`, `Chirirbandar`, `Kumarkhali`, `Rajbari`, `Pangsha`,`Chuadanga`, `Araihazar`,
-  `Ashulia`, `Farmgate`,`Pabna`,`Stidham-market`,`Sayestaganj`
+  `Ashulia`, `Farmgate`,`Pabna`,`Stidham-market`,`Sayestaganj`,`Kazipur`,`Jamalpur`
 
     
   ]
