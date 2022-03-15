@@ -13,7 +13,7 @@ let arrData = [
   `Meherpur`, `Gangni`, `Mawna`, `Baburhat`, `Malitola`, `Badargonj`, `Shamoly`, `Razapur`, `Jatrabari`, `Chakbazzar`,
   `Khilgaon`, `Siddirgonj`, `Tongi`, `Kaunia`, `Gabtoli`, `Magura`, `Faridpur`, `Jamilnagarshoting`, `Patgram`,
   `Sariakandi`, `Showarighat`, `Chirirbandar`, `Kumarkhali`, `Rajbari`, `Pangsha`,`Chuadanga`, `Araihazar`,
-  `Ashulia`, `Farmgate`,`Pabna`,`Stidham-market`,
+  `Ashulia`, `Farmgate`,`Pabna`,`Stidham-market`,`Sayestaganj`
 
     
   ]
@@ -742,7 +742,21 @@ function clickk(){
               num1.innerHTML='01755596865'
               num2.innerHTML='01755596866' 
               break
-        
+      case'Sayestaganj':
+              ofc.innerHTML='Sayestaganj'
+              num1.innerHTML='01313054415'
+              num2.innerHTML='01711280121' 
+              break
+      case'Jamalpur':
+              ofc.innerHTML='Jamalpur'
+              num1.innerHTML='01313054414'
+              num2.innerHTML='01737608630' 
+              break
+      case'Kazipur':
+              ofc.innerHTML='Kazipur'
+              num1.innerHTML='01313054416'
+              num2.innerHTML='01712880820' 
+              break
                             
   }
 }
